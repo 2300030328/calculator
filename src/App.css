@@ -35,11 +35,33 @@ input, label{
 }
 
 button{
-  background: gray;
+  background: green;
   color: white;
   font-weight: bold;
   width: 70px;
   height: 30px;
   border-radius: 5px;
+  margin-right: 10px;
 }
 
+button:hover {
+  background: darkgreen;
+  cursor: pointer;
+}
+
+label {
+  height: 30px;
+  width: 150px;
+  font-size: 16pt;
+  font-weight: bold;
+  border-radius: 5pt;  
+  display: inline-block;
+}
+
+.success {
+  color: green;
+}
+
+.error {
+  color: red;
+}
